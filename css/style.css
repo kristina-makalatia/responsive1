@@ -27,6 +27,7 @@ input::placeholder{
 	color: #fff;
 	font-size: 30px;
 }
+
 @media (max-width: 1065px){
 	.flex{
 		/*flex-wrap: wrap;*/
