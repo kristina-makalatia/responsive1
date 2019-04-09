@@ -11,8 +11,22 @@
 .flex img{
 	width: 350px;
 }
-
-
+.form-group{
+	width: 600px;
+}
+.form-wraper{
+	display: flex;
+	flex-direction: column;
+	margin-bottom:15px;
+}
+input::placeholder{
+	color:red;
+}
+.send{
+	background:green;
+	color: #fff;
+	font-size: 30px;
+}
 @media (max-width: 1065px){
 	.flex{
 		/*flex-wrap: wrap;*/
